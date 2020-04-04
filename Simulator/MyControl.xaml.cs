@@ -28,34 +28,9 @@ namespace Simulator
             this.DataContext = _vm;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_Start(object sender, RoutedEventArgs e)
         {
-            _vm.IsRedForCar = !_vm.IsRedForCar;
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            _vm.IsYellowForCar = !_vm.IsYellowForCar;
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            _vm.IsGreenForCar = !_vm.IsGreenForCar;
-        }
-
-        private void Button_Click4(object sender, RoutedEventArgs e)
-        {
-            _vm.IsRedForPeople = !_vm.IsRedForPeople;
-        }
-
-        private void Button_Click_5(object sender, RoutedEventArgs e)
-        {
-            _vm.IsGreenForPeople = !_vm.IsGreenForPeople;
-        }
-
-        private void Button_Click_3(object sender, RoutedEventArgs e)
-        {
-
+            _vm.Init();
         }
 
         private void Button_Click_S0(object sender, RoutedEventArgs e)
@@ -65,30 +40,30 @@ namespace Simulator
 
         private void Button_Click_S1(object sender, RoutedEventArgs e)
         {
-            _vm.ForceNextState(ProcessState.AutoYellow);
+            _vm.ProcessNextState(ProcessState.Ascend_0_4);
         }
 
         private void Button_Click_S2(object sender, RoutedEventArgs e)
         {
-            _vm.ForceNextState(ProcessState.BlinkOn);
+            _vm.ProcessNextState(ProcessState.Ascend_0_3);
         }
 
         private void Button_Click_S3(object sender, RoutedEventArgs e)
         {
-            _vm.ForceNextState(ProcessState.AutoRed);
+            _vm.ProcessNextState(ProcessState.Ascend_0_2);
         }
 
         private void Button_Click_S4(object sender, RoutedEventArgs e)
         {
-            _vm.ForceNextState(ProcessState.AutoRed);
+            _vm.ProcessNextState(ProcessState.Ascend_0_1);
         }
         private void Button_Click_S5(object sender, RoutedEventArgs e)
         {
-            _vm.ForceNextState(ProcessState.AutoRed);
+            _vm.ProcessNextState(ProcessState.Descend);
         }
-        private void Button_Click_Start(object sender, RoutedEventArgs e)
-        {
-            _vm.Init();
-        }
+
+
+
+
     }
 }

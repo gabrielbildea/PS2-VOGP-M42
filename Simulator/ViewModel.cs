@@ -10,41 +10,48 @@ namespace Simulator
 {
     public enum ButtonState
     { 
-        Off,
-        Request,
-        Blink,
-        Flash,
+        Off,                //oprit (oprire de urgenta)
+        Station_4,          //etaj 4
+        Station_2,          //etaj 3
+        Station_3,          //etaj 2
+        Station_1,          //etaj 1
+        AbDown,             //apasare continua pt revenirea liftului in pozitia initiala
     }
 
     public enum ProcessState
     {
-        Off,
-        BlinkOn,
-        BlinkOff,     
-        AutoRed,
-        AutoYellow,
-        AutoGreen,         
+        Off,                //oprit
+        Ascend_0_1,          //urca
+        Ascend_0_2,
+        Ascend_0_3,
+        Ascend_0_4,
+        Descend,         //coboara - revenire la starea initiala
     }
     
     class ViewModel : INotifyPropertyChanged
     {
         
         public event PropertyChangedEventHandler PropertyChanged;
+        private BackgroundWorker _worker = new BackgroundWorker();
+        private System.Timers.Timer _timer = new System.Timers.Timer();
+        private Comm.Sender _sender;
+        private ProcessState _theStateOfTheProcess = ProcessState.Off;
+        private bool _isEventRaised = false;
+        private ProcessState _nextState;
+        private bool _isEmergencyBtnPressed = false;
+        private bool _isAtStation_0;
+        private bool _isAtStation_1;
+        private bool _isAtStation_2;
+        private bool _isAtStation_3;
+        private bool _isAtStation_4;
+        public ViewModel()
+        {
+        }
+
         void OnPropertyChanged(string prop)
         {
             if (this.PropertyChanged != null)
                 this.PropertyChanged(this, new PropertyChangedEventArgs(prop));
-        }
-
-        private BackgroundWorker _worker = new BackgroundWorker();
-        private System.Timers.Timer _timer = new System.Timers.Timer();
-
-       
-
-        private Comm.Sender _sender;
-
-        public ViewModel()
-        {           
         }
 
         public void Init()
@@ -55,7 +62,7 @@ namespace Simulator
             _worker.RunWorkerAsync();
         }
 
-        private ProcessState _theStateOfTheProcess = ProcessState.Off;
+        
         public ProcessState TheStateOfTheProcess
         {
             get => _theStateOfTheProcess;
@@ -66,8 +73,6 @@ namespace Simulator
             }
         }
 
-
-
         private void _timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             _isEventRaised = false;
@@ -75,9 +80,7 @@ namespace Simulator
             _timer.Stop();
         }
 
-
-        private bool _isEventRaised = false;
-        private ProcessState _nextState;
+        
         private void RaiseTimerEvent(ProcessState NextProcessState, int TimeInterval)
         {
             if(!_isEventRaised)
@@ -89,8 +92,6 @@ namespace Simulator
             }
         }
 
-
-
         private void _worker_DoWork(object sender, DoWorkEventArgs e)
         {
             while(true)
@@ -100,71 +101,75 @@ namespace Simulator
             }
         }
 
-
         public void ProcessNextState(ProcessState CurrentState)
         {
             switch (CurrentState)
             {
                 case ProcessState.Off:
-                    IsRedForCar = false;
-                    IsYellowForCar = false;
-                    IsGreenForCar = false;
-                    IsRedForPeople = false;
-                    IsGreenForPeople = false;
+                    IsAtStation_0 = true;
+                    IsAtStation_1 = false;
+                    IsAtStation_2 = false;
+                    IsAtStation_3 = false;
+                    IsAtStation_4 = false;
 
                     RaiseTimerEvent(ProcessState.Off, 2000);
                    
                     break;
-                case ProcessState.BlinkOn:
-                    IsRedForCar = false;
-                    IsYellowForCar = true;
-                    IsGreenForCar = false;
-                    IsRedForPeople = false;
-                    IsGreenForPeople = false;
+                case ProcessState.Ascend_0_1:
+                    IsAtStation_0 = true;
+                    IsAtStation_1 = false;
+                    IsAtStation_2 = false;
+                    IsAtStation_3 = false;
+                    IsAtStation_4 = false;
 
-                    RaiseTimerEvent(ProcessState.BlinkOff, 2000);
+                    RaiseTimerEvent(ProcessState.Ascend_0_1, 1000);
+
+                    IsAtStation_0 = false;
+                    IsAtStation_1 = true;
+                    break;
+                case ProcessState.Ascend_0_2:
+                    IsAtStation_0 = false;
+                    IsAtStation_1 = false;
+                    IsAtStation_2 = true;
+                    IsAtStation_3 = false;
+                    IsAtStation_4 = false;
+
+                    RaiseTimerEvent(ProcessState.Ascend_0_2, 2000);
 
                     break;
-                case ProcessState.BlinkOff:
-                    IsRedForCar = false;
-                    IsYellowForCar = false;
-                    IsGreenForCar = false;
-                    IsRedForPeople = false;
-                    IsGreenForPeople = false;
-                    
-                    RaiseTimerEvent(ProcessState.BlinkOn, 2000);
+                case ProcessState.Ascend_0_3:
+                    IsAtStation_0 = false;
+                    IsAtStation_1 = false;
+                    IsAtStation_2 = false;
+                    IsAtStation_3 = true;
+                    IsAtStation_4 = false;
+
+                    RaiseTimerEvent(ProcessState.Ascend_0_3, 3000);
+
+                    break;
+                case ProcessState.Ascend_0_4:
+                    IsAtStation_0 = true;
+                    IsAtStation_1 = false;
+                    IsAtStation_2 = false;
+                    IsAtStation_3 = false;
+                    IsAtStation_4 = false;
+
+                    RaiseTimerEvent(ProcessState.Ascend_0_4, 4000);
+
+                    IsAtStation_0 = false;
+                    IsAtStation_4 = true;
+
+                    break;
+                case ProcessState.Descend:
+                    IsAtStation_0 = true;
+                    IsAtStation_1 = false;
+                    IsAtStation_2 = false;
+                    IsAtStation_3 = false;
+                    IsAtStation_4 = false;
+
+                    RaiseTimerEvent(ProcessState.Descend, 5000);
                    
-                    break;               
-                case ProcessState.AutoRed:
-                    IsRedForCar = true;
-                    IsYellowForCar = false;
-                    IsGreenForCar = false;
-                    IsRedForPeople = false;
-                    IsGreenForPeople = true;
-
-                    RaiseTimerEvent(ProcessState.AutoGreen, 5000);
-
-                    break;
-                case ProcessState.AutoYellow:
-                    IsRedForCar = false;
-                    IsYellowForCar = true;
-                    IsGreenForCar = false;
-                    IsRedForPeople = true;
-                    IsGreenForPeople = false;
-                    
-                    RaiseTimerEvent(ProcessState.AutoRed, 3000);
-
-                    break;
-                case ProcessState.AutoGreen:
-                    IsRedForCar = false;
-                    IsYellowForCar = false;
-                    IsGreenForCar = true;
-                    IsRedForPeople = true;
-                    IsGreenForPeople = false;
-
-                    RaiseTimerEvent(ProcessState.AutoYellow, 10000);
-
-                    break;                              
+                    break;                                           
             }
 
         }
@@ -178,25 +183,24 @@ namespace Simulator
         }
 
 
-        private bool _isRedForCar;
-        public bool IsRedForCar 
+        public bool IsAtStation_0
         {
             get
             {
-                return _isRedForCar;
+                return _isAtStation_0;
             }
             set
             {
-                _isRedForCar = value;
-                OnPropertyChanged(nameof(IsRedForCarsVisible));
+                _isAtStation_0 = value;
+                OnPropertyChanged(nameof(IsAtStation_0_Visible));
             }
         }
 
-        public System.Windows.Visibility IsRedForCarsVisible
+        public System.Windows.Visibility IsAtStation_0_Visible
         {
             get
             {
-                if(_isRedForCar)
+                if (_isAtStation_0)
                 {
                     return System.Windows.Visibility.Visible;
                 }
@@ -207,25 +211,25 @@ namespace Simulator
             }
         }
 
-        private bool _isYellowForCar;
-        public bool IsYellowForCar
+
+        public bool IsAtStation_1
         {
             get
             {
-                return _isYellowForCar;
+                return _isAtStation_1;
             }
             set
             {
-                _isYellowForCar = value;
-                OnPropertyChanged(nameof(IsYellowForCarsVisible));
+                _isAtStation_1 = value;
+                OnPropertyChanged(nameof(IsAtStation_1_Visible));
             }
         }
 
-        public System.Windows.Visibility IsYellowForCarsVisible
+        public System.Windows.Visibility IsAtStation_1_Visible
         {
             get
             {
-                if (_isYellowForCar)
+                if (_isAtStation_1)
                 {
                     return System.Windows.Visibility.Visible;
                 }
@@ -236,25 +240,24 @@ namespace Simulator
             }
         }
 
-        private bool _isGreenForCar;
-        public bool IsGreenForCar
+        public bool IsAtStation_2
         {
             get
             {
-                return _isGreenForCar;
+                return _isAtStation_2;
             }
             set
             {
-                _isGreenForCar = value;
-                OnPropertyChanged(nameof(IsGreenForCarsVisible));
+                _isAtStation_2 = value;
+                OnPropertyChanged(nameof(IsAtStation_2_Visible));
             }
         }
 
-        public System.Windows.Visibility IsGreenForCarsVisible
+        public System.Windows.Visibility IsAtStation_2_Visible
         {
             get
             {
-                if (_isGreenForCar)
+                if (_isAtStation_2)
                 {
                     return System.Windows.Visibility.Visible;
                 }
@@ -265,25 +268,24 @@ namespace Simulator
             }
         }
 
-        private bool _isGreenForPeople;
-        public bool IsGreenForPeople
+        public bool IsAtStation_3
         {
             get
             {
-                return _isGreenForPeople;
+                return _isAtStation_3;
             }
             set
             {
-                _isGreenForPeople = value;
-                OnPropertyChanged(nameof(IsGreenForPeopleVisible));
+                _isAtStation_3 = value;
+                OnPropertyChanged(nameof(IsAtStation_3_Visible));
             }
         }
 
-        public System.Windows.Visibility IsGreenForPeopleVisible
+        public System.Windows.Visibility IsAtStation_3_Visible
         {
             get
             {
-                if (_isGreenForPeople)
+                if (_isAtStation_3)
                 {
                     return System.Windows.Visibility.Visible;
                 }
@@ -294,25 +296,24 @@ namespace Simulator
             }
         }
 
-        private bool _isRedForPeople;
-        public bool IsRedForPeople
+        public bool IsAtStation_4
         {
             get
             {
-                return _isRedForPeople;
+                return _isAtStation_4;
             }
             set
             {
-                _isRedForPeople = value;
-                OnPropertyChanged(nameof(IsRedForPeopleVisible));
+                _isAtStation_4 = value;
+                OnPropertyChanged(nameof(IsAtStation_4_Visible));
             }
         }
 
-        public System.Windows.Visibility IsRedForPeopleVisible
+        public System.Windows.Visibility IsAtStation_4_Visible
         {
             get
             {
-                if (_isRedForPeople)
+                if (_isAtStation_4)
                 {
                     return System.Windows.Visibility.Visible;
                 }
