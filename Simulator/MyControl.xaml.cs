@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Simulator
 {
-    /// <summary>
-    /// Interaction logic for MyControl.xaml
-    /// </summary>
+
     public partial class MyControl : UserControl
     {
         ViewModel _vm;
@@ -31,35 +29,36 @@ namespace Simulator
         private void Button_Click_Start(object sender, RoutedEventArgs e)
         {
             _vm.Init();
+            //_vm.ForceNextState(ProcessState.Station_0);
         }
 
-        private void Button_Click_S0(object sender, RoutedEventArgs e)
+        private void Button_Click_S0(object sender, RoutedEventArgs e) //oprire de urgenta
         {
-            _vm.ForceNextState(ProcessState.Off);
+            _vm.ForceNextState(ProcessState.Station_0);
         }
 
-        private void Button_Click_S1(object sender, RoutedEventArgs e)
+        private void Button_Click_S1(object sender, RoutedEventArgs e)  //merg in station4
         {
-            _vm.ProcessNextState(ProcessState.Ascend_0_4);
+             _vm.ProcessNextState(_vm.TheStateOfTheProcess, ProcessState.Station_4);
         }
 
-        private void Button_Click_S2(object sender, RoutedEventArgs e)
+        private void Button_Click_S2(object sender, RoutedEventArgs e) //merg in station3
         {
-            _vm.ProcessNextState(ProcessState.Ascend_0_3);
+            _vm.ProcessNextState(_vm.TheStateOfTheProcess, ProcessState.Station_3);
         }
 
-        private void Button_Click_S3(object sender, RoutedEventArgs e)
+        private void Button_Click_S3(object sender, RoutedEventArgs e) //merg in station2
         {
-            _vm.ProcessNextState(ProcessState.Ascend_0_2);
+            _vm.ProcessNextState(_vm.TheStateOfTheProcess, ProcessState.Station_2);
         }
 
-        private void Button_Click_S4(object sender, RoutedEventArgs e)
+        private void Button_Click_S4(object sender, RoutedEventArgs e) //merg in station1
         {
-            _vm.ProcessNextState(ProcessState.Ascend_0_1);
+            _vm.ProcessNextState(_vm.TheStateOfTheProcess, ProcessState.Station_1);
         }
-        private void Button_Click_S5(object sender, RoutedEventArgs e)
+        private void Button_Click_S5(object sender, RoutedEventArgs e) //merg in station0
         {
-            _vm.ProcessNextState(ProcessState.Descend);
+            _vm.ProcessNextState(_vm.TheStateOfTheProcess, ProcessState.Station_0);
         }
 
 

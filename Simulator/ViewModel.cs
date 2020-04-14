@@ -8,6 +8,7 @@ using System.Windows.Media;
 
 namespace Simulator
 {
+    // + visualstudioonline
     public enum ButtonState
     { 
         Off,                //oprit (oprire de urgenta)
@@ -20,12 +21,11 @@ namespace Simulator
 
     public enum ProcessState
     {
-        Off,                //oprit
-        Ascend_0_1,          //urca
-        Ascend_0_2,
-        Ascend_0_3,
-        Ascend_0_4,
-        Descend,         //coboara - revenire la starea initiala
+        Station_0,               
+        Station_1,
+        Station_2,
+        Station_3,
+        Station_4,
     }
     
     class ViewModel : INotifyPropertyChanged
@@ -35,18 +35,14 @@ namespace Simulator
         private BackgroundWorker _worker = new BackgroundWorker();
         private System.Timers.Timer _timer = new System.Timers.Timer();
         private Comm.Sender _sender;
-        private ProcessState _theStateOfTheProcess = ProcessState.Off;
+        private ProcessState _theStateOfTheProcess = ProcessState.Station_0;
+        private ProcessState _nextState = ProcessState.Station_0;
         private bool _isEventRaised = false;
-        private ProcessState _nextState;
         private bool _isEmergencyBtnPressed = false;
-        private bool _isAtStation_0;
-        private bool _isAtStation_1;
-        private bool _isAtStation_2;
-        private bool _isAtStation_3;
-        private bool _isAtStation_4;
-        public ViewModel()
-        {
-        }
+        private bool _isAtStation_0,  _isAtStation_1, _isAtStation_2, _isAtStation_3, _isAtStation_4;
+        //public int current_station, next_station;
+
+        public ViewModel() {  }
 
         void OnPropertyChanged(string prop)
         {
@@ -62,7 +58,15 @@ namespace Simulator
             _worker.RunWorkerAsync();
         }
 
-        
+        private void _worker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            while (true)
+            {
+                ProcessNextState(TheStateOfTheProcess, _nextState);
+                System.Threading.Thread.Sleep(1000);
+            }
+        }
+
         public ProcessState TheStateOfTheProcess
         {
             get => _theStateOfTheProcess;
@@ -92,86 +96,71 @@ namespace Simulator
             }
         }
 
-        private void _worker_DoWork(object sender, DoWorkEventArgs e)
+        public void ProcessNextState(ProcessState CurrentState, ProcessState NextState)
         {
-            while(true)
-            {              
-                ProcessNextState(TheStateOfTheProcess);
-                System.Threading.Thread.Sleep(100);
-            }
-        }
-
-        public void ProcessNextState(ProcessState CurrentState)
-        {
+            //_nextState = NextState;
             switch (CurrentState)
             {
-                case ProcessState.Off:
+                case ProcessState.Station_0:
                     IsAtStation_0 = true;
                     IsAtStation_1 = false;
                     IsAtStation_2 = false;
                     IsAtStation_3 = false;
                     IsAtStation_4 = false;
-
-                    RaiseTimerEvent(ProcessState.Off, 2000);
-                   
+                    RaiseTimerEvent(NextState, 3000);
+                    System.Threading.Thread.Sleep(3000);
+                    IsAtStation_0 = false;
                     break;
-                case ProcessState.Ascend_0_1:
-                    IsAtStation_0 = true;
-                    IsAtStation_1 = false;
-                    IsAtStation_2 = false;
-                    IsAtStation_3 = false;
-                    IsAtStation_4 = false;
 
-                    RaiseTimerEvent(ProcessState.Ascend_0_1, 1000);
-
+                case ProcessState.Station_1:
                     IsAtStation_0 = false;
                     IsAtStation_1 = true;
+                    IsAtStation_2 = false;
+                    IsAtStation_3 = false;
+                    IsAtStation_4 = false;
+                    RaiseTimerEvent(NextState, 3000);
+                    System.Threading.Thread.Sleep(3000);
+                    IsAtStation_1 = false;
                     break;
-                case ProcessState.Ascend_0_2:
+
+                case ProcessState.Station_2:
                     IsAtStation_0 = false;
                     IsAtStation_1 = false;
                     IsAtStation_2 = true;
                     IsAtStation_3 = false;
                     IsAtStation_4 = false;
-
-                    RaiseTimerEvent(ProcessState.Ascend_0_2, 2000);
-
+                    RaiseTimerEvent(NextState, 3000);
+                    System.Threading.Thread.Sleep(3000);
+                    IsAtStation_2 = false;
                     break;
-                case ProcessState.Ascend_0_3:
+
+                case ProcessState.Station_3:
                     IsAtStation_0 = false;
                     IsAtStation_1 = false;
                     IsAtStation_2 = false;
                     IsAtStation_3 = true;
                     IsAtStation_4 = false;
-
-                    RaiseTimerEvent(ProcessState.Ascend_0_3, 3000);
-
-                    break;
-                case ProcessState.Ascend_0_4:
-                    IsAtStation_0 = true;
-                    IsAtStation_1 = false;
-                    IsAtStation_2 = false;
+                    RaiseTimerEvent(NextState, 3000);
+                    System.Threading.Thread.Sleep(3000);
                     IsAtStation_3 = false;
-                    IsAtStation_4 = false;
+                    break;
 
-                    RaiseTimerEvent(ProcessState.Ascend_0_4, 4000);
-
+                case ProcessState.Station_4:
                     IsAtStation_0 = false;
-                    IsAtStation_4 = true;
-
-                    break;
-                case ProcessState.Descend:
-                    IsAtStation_0 = true;
                     IsAtStation_1 = false;
                     IsAtStation_2 = false;
                     IsAtStation_3 = false;
+                    IsAtStation_4 = true;
+                    RaiseTimerEvent(NextState, 3000);
+                    System.Threading.Thread.Sleep(3000);
                     IsAtStation_4 = false;
-
-                    RaiseTimerEvent(ProcessState.Descend, 5000);
-                   
-                    break;                                           
+                    break;                               
             }
-
+            if (_nextState == ProcessState.Station_0) IsAtStation_0 = true;
+            if (_nextState == ProcessState.Station_1) IsAtStation_1 = true;
+            if (_nextState == ProcessState.Station_2) IsAtStation_2 = true;
+            if (_nextState == ProcessState.Station_3) IsAtStation_3 = true;
+            if (_nextState == ProcessState.Station_4) IsAtStation_4 = true;
         }
 
         public void ForceNextState(ProcessState NextState)
@@ -179,9 +168,7 @@ namespace Simulator
             _isEventRaised = false;
             _timer.Stop();
             TheStateOfTheProcess = NextState;
-            
         }
-
 
         public bool IsAtStation_0
         {

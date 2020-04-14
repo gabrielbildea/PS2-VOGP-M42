@@ -1,11 +1,3 @@
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.csprojAssemblyReference.cache
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.exe.config
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MainWindow.g.cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MyControl.g.cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\App.g.cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\GeneratedInternalTypeHelper.g.cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator_MarkupCompile.cache
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator_MarkupCompile.lref
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Images\Macheta.jpg
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Simulator.exe.config
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Simulator.exe
@@ -108,6 +100,14 @@ C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Xml.XPath.XDocument.dll
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Comm.dll
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Comm.pdb
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.csprojAssemblyReference.cache
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.exe.config
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MainWindow.g.cs
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MyControl.g.cs
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\App.g.cs
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator_MarkupCompile.cache
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator_MarkupCompile.lref
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MainWindow.baml
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MyControl.baml
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.g.resources
