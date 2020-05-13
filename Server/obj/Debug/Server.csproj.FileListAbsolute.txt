@@ -1,0 +1,7 @@
+C:\Users\damia\Desktop\proiect\beta3\PS2\Server\bin\Debug\Server.dll.config
+C:\Users\damia\Desktop\proiect\beta3\PS2\Server\bin\Debug\Server.dll
+C:\Users\damia\Desktop\proiect\beta3\PS2\Server\bin\Debug\Server.pdb
+C:\Users\damia\Desktop\proiect\beta3\PS2\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\damia\Desktop\proiect\beta3\PS2\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\damia\Desktop\proiect\beta3\PS2\Server\obj\Debug\Server.dll
+C:\Users\damia\Desktop\proiect\beta3\PS2\Server\obj\Debug\Server.pdb
