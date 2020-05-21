@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\All+DebugSimulator\
 Simulator
 none
 false
-TRACE
+DEBUG;TRACE
 C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\App.xaml
 2-965286330
 
-7-958645307
-120563137350
+8-577036118
+1201526401772
 MainWindow.xaml;MyControl.xaml;
 
-False
+True
 

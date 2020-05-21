@@ -5,20 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
-using System.Net;
-using System.Net.Sockets;
-using System.IO;
-using Server;
 
 namespace Simulator
 {
     public enum ProcessState
     {
-        Station_0=1,
-        Station_1=2,
-        Station_2=4,
-        Station_3=8,
-        Station_4=16,
+        Station_0,
+        Station_1,
+        Station_2,
+        Station_3,
+        Station_4,
     }
 
     class ViewModel : INotifyPropertyChanged
@@ -27,14 +23,13 @@ namespace Simulator
         public event PropertyChangedEventHandler PropertyChanged;
         private BackgroundWorker _worker = new BackgroundWorker();
         private System.Timers.Timer _timer = new System.Timers.Timer();
-       // private Comm.Sender _sender;
-        private Server.Server _server;
+        private Comm.Sender _sender;
         private ProcessState _theStateOfTheProcess = ProcessState.Station_0;
         private ProcessState _nextState = ProcessState.Station_0;
         private ProcessState _nextState2;
         private bool _isEventRaised = false;
 
-        private bool _isAtStation_0, _isAtStation_1, _isAtStation_2, _isAtStation_3, _isAtStation_4;
+        private bool _isAtStation_0, _isAtStation_1, _isAtStation_2,_isAtStation_3,_isAtStation_4;
 
         public ViewModel() { }
 
@@ -46,14 +41,10 @@ namespace Simulator
 
         public void Init()
         {
-            IPHostEntry iphostInfo = Dns.GetHostEntry(Dns.GetHostName());
-            IPAddress ipAdress = iphostInfo.AddressList[0];
-           // _sender = new Comm.Sender("127.0.0.1", 3000);
-            _server = new Server.Server(ipAdress);
+            _sender = new Comm.Sender("127.0.0.1", 3000);
             _timer.Elapsed += _timer_Elapsed;
             _worker.DoWork += _worker_DoWork;
-            _worker.RunWorkerAsync();
-            _nextState2 = ProcessState.Station_0;
+            _worker.RunWorkerAsync(); 
         }
 
         private void _worker_DoWork(object sender, DoWorkEventArgs e)
@@ -71,8 +62,7 @@ namespace Simulator
             set
             {
                 _theStateOfTheProcess = value;
-               // _sender.Send(Convert.ToByte(_theStateOfTheProcess));
-                _server.sendData(Convert.ToByte(_theStateOfTheProcess));
+                _sender.Send(Convert.ToByte(_theStateOfTheProcess));
             }
         }
 

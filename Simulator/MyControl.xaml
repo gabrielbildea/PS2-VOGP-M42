@@ -4,10 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Simulator"
-             mc:Ignorable="d" Width="1219.2" Height="802.4">
-    <Grid Margin="0,0,0.4,264">
+             mc:Ignorable="d" Height="645" Width="980">
+    <Grid Margin="0,0,44.6,19.8">
         <!--<Image Source="C:\_data\exemple facultate\Simulator\Simulator\Simulator\Images\Macheta.jpg"></Image>-->
-        <Grid Margin="-5,0,-3.2,-247.2">
+        <Grid Margin="0,0,40,20.2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="100"/>
                 <RowDefinition Height="100"/>
@@ -30,45 +30,48 @@
                 <ColumnDefinition Width="100" />
                 <ColumnDefinition Width="100" />
                 <ColumnDefinition Width="100" />
-                <ColumnDefinition Width="100" />
             </Grid.ColumnDefinitions>
 
+            <Border CornerRadius="10" Grid.RowSpan="6"  Background="LightGray" Grid.ColumnSpan="2" Margin="99,92,1,7" />
+            <Border CornerRadius="100" Grid.Row="5" Grid.Column="1" Background="Green" Margin="9,2,11,18" Visibility="{Binding IsAtStation_0_Visible}"/>
+            <Border CornerRadius="100" Grid.Row="4" Grid.Column="1" Background="Green" Margin="5,2,15,18" Visibility="{Binding IsAtStation_1_Visible}"/>
+            <Border CornerRadius="100" Grid.Row="3" Grid.Column="1" Background="Green" Margin="8,4,12,16" Visibility="{Binding IsAtStation_2_Visible}"/>
+            <Border CornerRadius="100" Grid.Row="2" Grid.Column="1" Background="Green" Margin="10,10,10,9" Visibility="{Binding IsAtStation_3_Visible}"/>
+            <Border CornerRadius="100" Grid.Row="1" Grid.Column="1" Background="Green" Margin="8,5,12,15" Visibility="{Binding IsAtStation_4_Visible}"/>
 
-            <Border CornerRadius="10" Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" Background="DarkGray" Grid.ColumnSpan="2" Margin="0.4,4.2,100.2,0.8" />
-
-            <Border CornerRadius="100" Grid.Row="5" Grid.Column="2" Background="Green" Margin="13.4,12,6.4,7.8" Visibility="{Binding IsAtStation_0_Visible}" />
-            <Border CornerRadius="100" Grid.Row="4" Grid.Column="2" Background="Green" Margin="11.4,13.8,8.4,6" Visibility="{Binding IsAtStation_1_Visible}" />
-            <Border CornerRadius="100" Grid.Row="3" Grid.Column="2" Background="Green" Margin="12.4,13.6,7.4,6.2" Visibility="{Binding IsAtStation_2_Visible}" />
-            <Border CornerRadius="100" Grid.Row="2" Grid.Column="2" Background="Green" Margin="9.4,11.4,10.4,8.4" Visibility="{Binding IsAtStation_3_Visible}" />
-            <Border CornerRadius="100" Grid.Row="1" Grid.Column="2" Background="Green" Margin="10.4,16.2,9.4,3.6" Visibility="{Binding IsAtStation_4_Visible}" />
-
-            <Button Grid.Column="8" Grid.Row="1" Background="DimGray" Margin="14.6,7.2,13,13.6" Click="Button_Click_Start" Grid.ColumnSpan="2">
+            <Button Grid.Column="7" Background="DimGray" Margin="13,10,15,10" Click="Button_Click_Start" Grid.ColumnSpan="2">
                 <TextBlock Text="ON" Foreground="White" FontSize="30"></TextBlock>
             </Button>
-
-            <Button Grid.Column="6" Background="DimGray" Margin="10.2,12,9.6,8" Click="Button_Click_S0">
+            <Button Grid.Column="4" Background="DimGray" Margin="10" Click="Button_Click_S0">
                 <TextBlock Text="S0" Foreground="White" FontSize="30"></TextBlock>
             </Button>
-            <Button Grid.Column="6" Grid.Row="1" Background="DimGray" Margin="12.2,12,7.6,8" Click="Button_Click_S1">
+            <Button Grid.Column="4" Grid.Row="1" Background="DimGray" Margin="10" Click="Button_Click_S1">
                 <TextBlock Text="S1" Foreground="White" FontSize="30"></TextBlock>
             </Button>
-            <Button Grid.Column="6" Grid.Row="2" Background="DimGray" Margin="9.2,10,10.6,10" Click="Button_Click_S2">
+            <Button Grid.Column="4" Grid.Row="2" Background="DimGray" Margin="10" Click="Button_Click_S2">
                 <TextBlock Text="S2" Foreground="White" FontSize="30"></TextBlock>
             </Button>
-            <Button Grid.Column="6" Grid.Row="3" Background="DimGray" Margin="9.2,10,10.6,9" Click="Button_Click_S3">
+            <Button Grid.Column="4" Grid.Row="3" Background="DimGray" Margin="10" Click="Button_Click_S3">
                 <TextBlock Text="S3" Foreground="White" FontSize="30"></TextBlock>
             </Button>
-            <Button Grid.Column="6" Grid.Row="4" Background="DimGray" Margin="9.2,11,10.6,10" Click="Button_Click_S4">
+            <Button Grid.Column="4" Grid.Row="4" Background="DimGray" Margin="10" Click="Button_Click_S4">
                 <TextBlock Text="S4" Foreground="White" FontSize="30"></TextBlock>
             </Button>
-            <Button Grid.Column="6" Grid.Row="5" Background="DimGray" Margin="8.2,9,11.6,11" Click="Button_Click_S5">
+            <Button Grid.Column="4" Grid.Row="5" Background="DimGray" Margin="10" Click="Button_Click_S5">
                 <TextBlock Text="S5" Foreground="White" FontSize="30"></TextBlock>
             </Button>
-            <TextBlock Text="Station 1" Foreground="Black" FontSize="30" Margin="8.6,18.8,43,23" RenderTransformOrigin="20.588,2.99" Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="4"/>
-            <TextBlock Text="Station 2" Foreground="Black" FontSize="30" Margin="8.6,19.6,43,22.2" RenderTransformOrigin="20.588,2.99" Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="3"/>
-            <TextBlock Text="Station 3" Foreground="Black" FontSize="30" Margin="10.6,19.4,41,22.4" RenderTransformOrigin="20.588,2.99" Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="2"/>
-            <TextBlock Text="Station 4" Foreground="Black" FontSize="30" Margin="8.6,21.2,43,20.6" RenderTransformOrigin="20.588,2.99" Grid.ColumnSpan="2" Grid.Column="3" Grid.Row="1"/>
 
+            <TextBlock Text="Station 1" Foreground="Black" FontSize="30" Margin="10,20,71,40" RenderTransformOrigin="20.588,2.99" Grid.Column="2" Grid.Row="4" Grid.ColumnSpan="2"/>
+            <TextBlock Text="Station 2" Foreground="Black" FontSize="30" Margin="10,26,71,34" RenderTransformOrigin="20.588,2.99" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="2"/>
+            <TextBlock Text="Station 3" Foreground="Black" FontSize="30" Margin="5,20,77,41" RenderTransformOrigin="20.588,2.99" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2"/>
+            <TextBlock Text="Station 4" Foreground="Black" FontSize="30" Margin="7,29,75,32" RenderTransformOrigin="20.588,2.99" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1"/>
+
+            <TextBlock Text="Etaj 4" Foreground="Black" FontSize="25" Margin="8,29,7,31" RenderTransformOrigin="20.588,2.99" Grid.Column="5" Grid.Row="1"/>
+            <TextBlock Text="Etaj 3" Foreground="Black" FontSize="25" Margin="8,30,7,30" RenderTransformOrigin="20.588,2.99" Grid.Column="5" Grid.Row="2"/>
+            <TextBlock Text="Etaj 2" Foreground="Black" FontSize="25" Margin="8,31,7,29" RenderTransformOrigin="20.588,2.99" Grid.Column="5" Grid.Row="3"/>
+            <TextBlock Text="Etaj 1" Foreground="Black" FontSize="25" Margin="8,30,7,30" RenderTransformOrigin="20.588,2.99" Grid.Column="5" Grid.Row="4"/>
+            <TextBlock Text="Revenire la poz. init." Foreground="Black" FontSize="25" Margin="12,30,65,30" RenderTransformOrigin="20.588,2.99" Grid.Column="5" Grid.Row="5" Grid.ColumnSpan="3"/>
+            <TextBlock Foreground="Black" FontSize="25" Margin="8,18,53,16" RenderTransformOrigin="20.588,2.99" Grid.Column="5" Grid.ColumnSpan="2"><Run Text="Oprire "/><Run Text="de "/><LineBreak/><Run Text="urgenta"/></TextBlock>
 
 
             <!--<Border CornerRadius="20" Background="Red" Height="20" Width="20"/>

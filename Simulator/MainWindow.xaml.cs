@@ -25,9 +25,5 @@ namespace Simulator
             InitializeComponent();            
         }
 
-        private void MyControl_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

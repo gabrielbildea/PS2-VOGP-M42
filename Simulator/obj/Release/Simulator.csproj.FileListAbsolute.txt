@@ -1,119 +1,119 @@
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Images\Macheta.jpg
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Simulator.exe.config
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Simulator.exe
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Simulator.pdb
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Microsoft.Win32.Primitives.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\netstandard.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.AppContext.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Collections.Concurrent.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Collections.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Collections.NonGeneric.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Collections.Specialized.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.ComponentModel.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.ComponentModel.EventBasedAsync.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.ComponentModel.Primitives.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.ComponentModel.TypeConverter.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Console.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Data.Common.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.Contracts.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.Debug.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.FileVersionInfo.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.Process.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.StackTrace.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.Tools.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.TraceSource.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Diagnostics.Tracing.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Drawing.Primitives.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Dynamic.Runtime.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Globalization.Calendars.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Globalization.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Globalization.Extensions.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.Compression.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.Compression.ZipFile.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.FileSystem.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.FileSystem.DriveInfo.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.FileSystem.Primitives.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.FileSystem.Watcher.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.IsolatedStorage.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.MemoryMappedFiles.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.Pipes.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.IO.UnmanagedMemoryStream.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Linq.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Linq.Expressions.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Linq.Parallel.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Linq.Queryable.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.Http.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.NameResolution.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.NetworkInformation.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.Ping.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.Primitives.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.Requests.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.Security.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.Sockets.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.WebHeaderCollection.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.WebSockets.Client.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Net.WebSockets.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.ObjectModel.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Reflection.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Reflection.Extensions.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Reflection.Primitives.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Resources.Reader.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Resources.ResourceManager.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Resources.Writer.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.CompilerServices.VisualC.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.Extensions.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.Handles.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.InteropServices.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.Numerics.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.Serialization.Formatters.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.Serialization.Json.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.Serialization.Primitives.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Runtime.Serialization.Xml.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Security.Claims.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Security.Cryptography.Algorithms.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Security.Cryptography.Csp.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Security.Cryptography.Encoding.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Security.Cryptography.Primitives.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Security.Cryptography.X509Certificates.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Security.Principal.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Security.SecureString.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Text.Encoding.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Text.Encoding.Extensions.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Text.RegularExpressions.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Threading.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Threading.Overlapped.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Threading.Tasks.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Threading.Tasks.Parallel.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Threading.Thread.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Threading.ThreadPool.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Threading.Timer.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.ValueTuple.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Xml.ReaderWriter.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Xml.XDocument.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Xml.XmlDocument.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Xml.XmlSerializer.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Xml.XPath.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\System.Xml.XPath.XDocument.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Comm.dll
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\bin\Release\Comm.pdb
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.csprojAssemblyReference.cache
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.exe.config
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MainWindow.g.cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MyControl.g.cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\App.g.cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\GeneratedInternalTypeHelper.g.cs
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator_MarkupCompile.cache
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator_MarkupCompile.lref
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MainWindow.baml
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\MyControl.baml
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.g.resources
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.Properties.Resources.resources
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.csproj.GenerateResource.cache
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.csproj.CoreCompileInputs.cache
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.csproj.CopyComplete
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.exe
-C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Simulator\Simulator\obj\Release\Simulator.pdb
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\Images\Macheta.jpg
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\Simulator.exe.config
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\Simulator.exe
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\Simulator.pdb
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\netstandard.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.AppContext.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Collections.Concurrent.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Collections.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Collections.NonGeneric.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Collections.Specialized.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.ComponentModel.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.ComponentModel.Primitives.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.ComponentModel.TypeConverter.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Console.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Data.Common.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.Contracts.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.Debug.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.FileVersionInfo.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.Process.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.StackTrace.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.Tools.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.TraceSource.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Drawing.Primitives.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Dynamic.Runtime.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Globalization.Calendars.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Globalization.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Globalization.Extensions.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.Compression.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.FileSystem.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.FileSystem.DriveInfo.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.FileSystem.Watcher.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.IsolatedStorage.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.MemoryMappedFiles.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.Pipes.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Linq.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Linq.Expressions.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Linq.Parallel.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Linq.Queryable.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.Http.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.NameResolution.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.NetworkInformation.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.Ping.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.Primitives.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.Requests.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.Security.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.Sockets.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.WebHeaderCollection.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.WebSockets.Client.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Net.WebSockets.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.ObjectModel.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Reflection.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Reflection.Extensions.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Reflection.Primitives.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Resources.Reader.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Resources.ResourceManager.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Resources.Writer.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.Extensions.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.Handles.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.Numerics.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.Serialization.Formatters.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.Serialization.Json.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Security.Claims.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Security.Cryptography.Csp.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Security.Principal.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Security.SecureString.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Text.Encoding.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Text.Encoding.Extensions.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Threading.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Threading.Overlapped.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Threading.Tasks.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Threading.Thread.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Threading.ThreadPool.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Threading.Timer.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.ValueTuple.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Xml.XDocument.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Xml.XmlDocument.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Xml.XmlSerializer.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Xml.XPath.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\System.Xml.XPath.XDocument.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\Comm.dll
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\bin\Release\Comm.pdb
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.csprojAssemblyReference.cache
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.exe.config
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\MainWindow.g.cs
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\MyControl.g.cs
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\App.g.cs
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator_MarkupCompile.cache
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator_MarkupCompile.lref
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\MainWindow.baml
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\MyControl.baml
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.g.resources
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.Properties.Resources.resources
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.csproj.GenerateResource.cache
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.csproj.CoreCompileInputs.cache
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.csproj.CopyComplete
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.exe
+C:\Users\gabi_\Desktop\PS2-2020\Simulator + monitorizare\Incercare 2\Simulator\obj\Release\Simulator.pdb

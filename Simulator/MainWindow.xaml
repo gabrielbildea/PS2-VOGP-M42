@@ -5,10 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Simulator"
         mc:Ignorable="d"
-        Title="Simulator Lift" Height="828" Width="1197.6">
-    <Grid Margin="0,0,57,0.4">
-        <local:MyControl Margin="6,0,-40.8,0" Height="745" VerticalAlignment="Top" Loaded="MyControl_Loaded" >
-
-        </local:MyControl>
+        Title="Simulator Lift M42" Height="716.4" Width="1058.05">
+    <Grid Margin="0,0,43.6,35.6">
+        <local:MyControl Margin="20,25,-11.6,-8.8" />
     </Grid>
 </Window>
